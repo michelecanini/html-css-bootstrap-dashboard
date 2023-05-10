@@ -26,6 +26,9 @@ HEADER SETTING
     height: calc(100vh - 71px);
     background-color: blue;
     border: 1px dashed white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .top_sidebar{
@@ -36,4 +39,38 @@ HEADER SETTING
 .bottom_sidebar{
     width: 100%;
     background-color: lime;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar{
+        width: 50px;
+    }
+
+    .top_sidebar li{
+        display: none;
+    }
+
+    .bottom_sidebar a{
+        display: none;
+    }
+
+}
+
+/*
+MOBILE
+*/
+@media screen and (max-width: 550px) {
+    .sidebar{
+        width: 50px;
+    }
+
+    .top_sidebar li{
+        display: none;
+    }
+
+    .bottom_sidebar a{
+        display: none;
+    }
+
+
 }
