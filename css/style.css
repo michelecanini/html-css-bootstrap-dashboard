@@ -6,3 +6,23 @@ GENERAL SETTING
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+CONTAINER-FLUID APP
+*/
+
+.container_app{
+    height: 100vh;
+    width: 100vw;
+    background-color: #212529 ;
+}
+
+/*
+HEADER SETTING
+*/
+
+header{
+    border: 1px dashed white;
+    height: 80px;
+    width: 100%;
+}
