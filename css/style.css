@@ -98,6 +98,10 @@ TABLET
         display: block;
         height: 40px;
     }
+
+    .topbar{
+        width: 100vw;
+    }
 }
 
 /*
@@ -123,5 +127,9 @@ MOBILE
     .mobile_logo{
         display: block;
         height: 40px;
+    }
+
+    .topbar{
+        width: 100vw;
     }
 }
