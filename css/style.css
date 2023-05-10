@@ -14,17 +14,36 @@ CONTAINER APP
 .container_app{
     height: 100vh;
     width: 100vw;
+}
+
+main{
     background-color: #212529 ;
+    display: flex;
+
 }
 
 /*
 HEADER SETTING
 */
+.logo{
+    height: 35px;
+}
 
+.mobile_logo{
+    display: none;
+}
+
+.bell{
+    height: 20px;
+}
+
+/*
+SIDEBAR LEFT SETTING
+*/
 .sidebar{
-    width: 150px;
+    width: 160px;
     height: calc(100vh - 71px);
-    background-color: blue;
+    background-color: rgb(0, 0, 156);
     border: 1px dashed white;
     display: flex;
     flex-direction: column;
@@ -33,7 +52,8 @@ HEADER SETTING
 
 .top_sidebar{
     width: 100%;
-    background-color: yellowgreen;
+    background-color: rgb(255, 106, 106);
+    height: 150px;
 }
 
 .bottom_sidebar{
@@ -41,9 +61,25 @@ HEADER SETTING
     background-color: lime;
 }
 
+
+/*
+TOPBAR MAIN SETTING
+*/
+
+.topbar{
+    height: 150px;
+    width: calc(100vw - 160px);
+    background-color: rgb(248, 164, 55);
+    border: 1px dashed white;
+}
+
+/*
+TABLET
+*/
+
 @media screen and (max-width: 768px) {
     .sidebar{
-        width: 50px;
+        width: 60px;
     }
 
     .top_sidebar li{
@@ -53,7 +89,15 @@ HEADER SETTING
     .bottom_sidebar a{
         display: none;
     }
+    
+    .logo{
+        display: none;
+    }
 
+    .mobile_logo{
+        display: block;
+        height: 40px;
+    }
 }
 
 /*
@@ -61,7 +105,7 @@ MOBILE
 */
 @media screen and (max-width: 550px) {
     .sidebar{
-        width: 50px;
+        width: 60px;
     }
 
     .top_sidebar li{
@@ -72,5 +116,12 @@ MOBILE
         display: none;
     }
 
+    .logo{
+        display: none;
+    }
 
+    .mobile_logo{
+        display: block;
+        height: 40px;
+    }
 }
