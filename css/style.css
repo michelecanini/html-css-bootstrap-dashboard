@@ -8,7 +8,7 @@ GENERAL SETTING
 }
 
 /*
-CONTAINER-FLUID APP
+CONTAINER APP
 */
 
 .container_app{
@@ -21,8 +21,17 @@ CONTAINER-FLUID APP
 HEADER SETTING
 */
 
-header{
+.sec_header{
     border: 1px dashed white;
     height: 80px;
     width: 100%;
+    background-color: grey;
+}
+
+.content_header{
+    border: 1px dashed black;
+    height: 100%;
+    background-color: yellow;
+    height: 80px;
+    position: relative;
 }
