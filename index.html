@@ -23,39 +23,29 @@
             <!--
             START HEADER
             -->
-            <header>
-                <section class="sec_header">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-md-1">
-                                <div class="content_header">
-                                    <!--logo end logo mobile-->
-                                    <div class="sec_logo">
-                                        <!--logo-->
-                                        <div class="logo">
-                                        </div>
-                                        <!--logo-mobile-->
-                                        <div class="mobile_logo">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-10">
-                                <div class="content_header">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-1">
-                                <div class="content_header">
-                                    
-                                </div>
-                            </div>
-
-                        </div>
-                        </div>
-                    </div>
-                </section>
-            </header>
+            <header class="py-3 mb-3 border-bottom">
+                <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 10fr 1fr;">
+                  <div>
+                    <img src="./img/logo.svg" alt="logo">
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <form class="w-100 me-3" role="search">
+                      <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+                  </div>
+                  <div class="flex-shrink-0 dropdown">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./img/mobile-logo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small shadow">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </header>
+        
             <!--
             END HEADER
             -->
