@@ -10,7 +10,6 @@ GENERAL SETTING
 /*
 CONTAINER APP
 */
-
 .container_app{
     height: 100vh;
     width: 100vw;
@@ -57,8 +56,11 @@ SIDEBAR LEFT SETTING
 }
 
 .bottom_sidebar{
-    width: 100%;
+    width: 160px;
     background-color: lime;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 /*
@@ -68,7 +70,6 @@ TOPBAR MAIN SETTING
     height: 150px;
     width: calc(100vw - 160px);
     background-color: rgb(248, 164, 55);
-    border: 1px dashed white;
 }
 
 /*
@@ -78,6 +79,8 @@ CONTENT SETTING
     background-color: cyan;
     display: flex;
     flex-direction: column;
+    width: calc(100% - 160px);
+    overflow-y: auto;
 }
 
 /*
@@ -107,6 +110,10 @@ TABLET
 
     .topbar{
         width: 100vw;
+    }
+
+    .content{
+        width: calc(100% - 60px);
     }
 }
 
@@ -139,3 +146,4 @@ MOBILE
         width: 100vw;
     }
 }
+
