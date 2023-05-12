@@ -90,14 +90,27 @@
                         <!--
                             topbar-upgrade
                         -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
                                     <div>
-                                        <!--toggle-button-->
-                                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Nuovo Studente +</button>
+                                        <h1>Boolean</h1>
                                     </div>
                                 </div>
+                                <div class="col-md-3">
+                                  <div>
+                                    <span>Studenti online negli ultimi 30 minuti</span>
+                                    <div>125</div>
+                                  </div>
+                                </div>
+                                  <div class="col-md-3">
+                                    
+                                    <div>
+                                      <span>Nuovo Studente</span>
+                                        <!--toggle-button-->
+                                        <button class="btn btn-primary border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                    </div>
+                                  </div>
                             </div>
                         </div>
                     </section>
@@ -125,31 +138,69 @@
                                         <caption class="bg-light mt-3 b_radius_top p-3 border-start border-end border-top"><h4 class="color_black mb-0">Prossime Classi</h4></caption>
                                         <thead>
                                           <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
-                                            <th scope="col">Stato</th>
-                                            <th scope="col">Handle</th>
+                                            <th scope="col" class="col-7">Nome</th>
+                                            <th scope="col" class="col-2">Data inizio</th>
+                                            <th scope="col" class="col-1">ROI</th>
+                                            <th scope="col" class="col-1">Stato</th>
+                                            <th scope="col" class="col-2">Azioni</th>
                                           </tr>
                                         </thead>
                                         <tbody>
                                           <tr>
                                             <th scope="row">classe 75</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
+                                            <td>15 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
+                                            <th scope="row">classe 75</th>
+                                            <td>15 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
+                                            <th scope="row">classe 76</th>
+                                            <td>16 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">classe 77</th>
+                                            <td>17 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">classe 78</th>
+                                            <td>18 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">classe 79</th>
+                                            <td>19 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">classe 80</th>
+                                            <td>20 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">classe 81</th>
+                                            <td>21 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
                                           </tr>
                                         </tbody>
                                       </table>
@@ -226,7 +277,7 @@
 
                                     <!--utenti attivi-->
                                     <ul class="list-group">
-                                      <li class="list-group-item bg-light mt-3">
+                                      <li class="list-group-item bg-white mt-3">
                                         <img src="./img/stats.jpeg" alt="stats" class="stats">
                                         <h5>Utenti Attivi</h5>
                                         <span>Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
