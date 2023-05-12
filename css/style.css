@@ -41,22 +41,25 @@ SIDEBAR LEFT SETTING
 */
 .sidebar{
     width: 160px;
-    height: calc(100vh - 71px);
     display: flex;
+    height: calc(100vh - 71px);
     flex-direction: column;
     justify-content: space-between;
     position: relative;
 }
 
 .top_sidebar{
-    width: 100%;
-    background-color: rgb(255, 106, 106);
+    width: 160px;
     height: 150px;
+    border: 1px dashed white;
 }
 
 .bot_sidebar{
-    width: 100%;
-    background-color: lime;
+    width: 160px;
+    position: fixed;
+    bottom: 0;
+    border: 1px dashed white;
+
 }
 
 /*
@@ -88,6 +91,10 @@ CONTENT SETTING
     color: black;
 }
 
+.stats{
+    width: 100%;
+}
+
 /*
 TABLET
 */
@@ -96,7 +103,7 @@ TABLET
         width: 60px;
     }
 
-    .bottom_sidebar{
+    .bot_sidebar{
         width: 60px;
     }
 
@@ -104,7 +111,7 @@ TABLET
         display: none;
     }
 
-    .bottom_sidebar a{
+    .bot_sidebar a{
         display: none;
     }
     
@@ -134,7 +141,7 @@ MOBILE
         width: 60px;
     }
 
-    .bottom_sidebar{
+    .bot_sidebar{
         width: 60px;
     }
 
@@ -142,7 +149,7 @@ MOBILE
         display: none;
     }
 
-    .bottom_sidebar a{
+    .bot_sidebar a{
         display: none;
     }
 
