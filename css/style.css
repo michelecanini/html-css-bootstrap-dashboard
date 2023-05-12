@@ -45,6 +45,7 @@ SIDEBAR LEFT SETTING
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .top_sidebar{
@@ -53,12 +54,9 @@ SIDEBAR LEFT SETTING
     height: 150px;
 }
 
-.bottom_sidebar{
-    width: 160px;
+.bot_sidebar{
+    width: 100%;
     background-color: lime;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
 
 /*
