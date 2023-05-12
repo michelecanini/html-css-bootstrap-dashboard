@@ -91,6 +91,10 @@ TABLET
         width: 60px;
     }
 
+    .bottom_sidebar{
+        width: 60px;
+    }
+
     .top_sidebar li{
         display: none;
     }
@@ -122,6 +126,10 @@ MOBILE
 */
 @media screen and (max-width: 550px) {
     .sidebar{
+        width: 60px;
+    }
+
+    .bottom_sidebar{
         width: 60px;
     }
 
