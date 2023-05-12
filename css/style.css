@@ -75,7 +75,6 @@ TOPBAR MAIN SETTING
 CONTENT SETTING
 */
 .content{
-    background-color: cyan;
     display: flex;
     flex-direction: column;
     width: calc(100% - 160px);
