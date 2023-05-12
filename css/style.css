@@ -13,6 +13,7 @@ CONTAINER APP
 .container_app{
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 main{
@@ -24,6 +25,7 @@ main{
 /*
 HEADER SETTING
 */
+
 .logo{
     height: 35px;
 }
@@ -68,7 +70,7 @@ TOPBAR MAIN SETTING
 .topbar{
     height: 150px;
     width: calc(100vw - 160px);
-    background-color: rgb(248, 164, 55);
+    background-color: #0d6efd;
 }
 
 /*
@@ -79,6 +81,7 @@ CONTENT SETTING
     flex-direction: column;
     width: calc(100% - 160px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .b_radius_top{
