@@ -25,6 +25,13 @@ main{
 /*
 HEADER SETTING
 */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
 
 .logo{
     height: 35px;
@@ -80,6 +87,10 @@ SIDEBAR LEFT SETTING
 .top_sidebar{
     width: 160px;
     height: 150px;
+    position: fixed;
+    top: 71px;
+    left: 0;
+    z-index: 1;
 }
 
 .bot_sidebar{
@@ -124,6 +135,7 @@ TOPBAR MAIN SETTING
     height: 130px;
     width: calc(100vw - 160px);
     background-color: #0d6efd;
+    margin-top: 71px;
 }
 
 /*
@@ -202,7 +214,14 @@ TABLET
     .bot_sidebar a{
         margin-left: 1.1rem
     }
+
+    header{
+        width: 100%;
+    }
     
+    header div{
+        width: 100%;
+    }
 }
 
 /*
