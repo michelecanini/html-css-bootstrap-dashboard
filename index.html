@@ -6,7 +6,7 @@
         <!--responsive-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--fontawesome-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <!--bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -32,13 +32,17 @@
                         <img src="./img/mobile-logo.png" alt="logo" class="mobile_logo">
                     </div>
                     <div class="d-flex align-items-center">
-                        <form class="w-100 me-3" role="search">
-                            <input type="search" class="form-control bg-light" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                        <form class="w-100 me-3"  role="search">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                            <input  type="search" class="form-control bg-light p_left" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                         </form>
                     </div>
                   <div class="flex-shrink-0 dropdown">
                     <a href="#" class="d-block link-dark text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="./img/bell-solid.svg" alt="mdo" class="rounded-circle bell">
+                      <i class="fa-solid fa-list d_none mr_10"></i>
+                      <i class="fa-solid fa-circle-question d_none mr_10"></i>
+                      <i class="fa-solid fa-ellipsis-vertical d_none mr_10"></i>
+                      <i class="fa-solid fa-bell bell"></i>
                     </a>
                     <ul class="dropdown-menu text-small shadow">
                       <li><a class="dropdown-item" href="#">Profilo</a></li>
@@ -128,14 +132,13 @@
                         </div>
                     <!--END TOGGLE RIGHT-BAR STUDENT-->
 
-
                     <!--prossime classi-->
                     <section>
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-8">
                                     <table class="table caption-top bg-white border">
-                                        <caption class="bg-light mt-3 b_radius_top p-3 border-start border-end border-top"><h4 class="color_black mb-0">Prossime Classi</h4></caption>
+                                        <caption class="bg-light mt-4 b_radius_top p-3 border-start border-end border-top"><h4 class="color_black mb-0">Prossime Classi</h4></caption>
                                         <thead>
                                           <tr>
                                             <th scope="col" class="col-7">Nome</th>
@@ -146,13 +149,6 @@
                                           </tr>
                                         </thead>
                                         <tbody>
-                                          <tr>
-                                            <th scope="row">classe 75</th>
-                                            <td>15 Febbraio 2021</td>
-                                            <td>20%</td>
-                                            <td>Done</td>
-                                            <td>icon-icon</td>
-                                          </tr>
                                           <tr>
                                             <th scope="row">classe 75</th>
                                             <td>15 Febbraio 2021</td>
@@ -202,13 +198,20 @@
                                             <td>Done</td>
                                             <td>icon-icon</td>
                                           </tr>
+                                          <tr>
+                                            <th scope="row">classe 82</th>
+                                            <td>22 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>Done</td>
+                                            <td>icon-icon</td>
+                                          </tr>
                                         </tbody>
                                       </table>
                                     <!--end prossime classi-->
 
                                     <!--f.a.q-->
                                       <div class="accordion id=accordionExample">
-                                        <div class="accordion-item">  
+                                        <div class="accordion-item mt-4">  
                                             <h4 class="accordion-header bg-light p-3">F.A.Q.</h4>
                                             <div id="collapseTwo" class="accordion-collapse collapse">
                                             </div>
@@ -249,7 +252,6 @@
                                               </div>
                                             </div>
                                           </div>
-                                        
                                       </div>
                                 </div>
                                 <!--end f.a.q-->
@@ -257,7 +259,7 @@
                                 <div class="col-md-4">
                                     <!--todo-->
                                     <ul class="list-group">
-                                      <li class="list-group-item bg-light mt-3">
+                                      <li class="list-group-item bg-light mt-4">
                                         <h4>Todo</h4>
                                       </li>
                                       <li class="list-group-item">
@@ -273,10 +275,10 @@
                                         <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Controllare username github studenti</label>
                                       </li>
                                     </ul>
-                                      <!--end todo-->
+                                    <!--end todo-->
 
                                     <!--utenti attivi-->
-                                    <ul class="list-group">
+                                    <ul class="list-group mt-3">
                                       <li class="list-group-item bg-white mt-3">
                                         <img src="./img/stats.jpeg" alt="stats" class="stats">
                                         <h5>Utenti Attivi</h5>
@@ -299,9 +301,6 @@
                             </div>
                         </div>
                     </section>
-                   
-                    <!--utenti attivi-->
-                    <section></section>
                 </section>
                 <!--END CONTENT-->
 

@@ -35,7 +35,34 @@ HEADER SETTING
 }
 
 .bell{
-    height: 20px;
+    font-size: 20px;
+    color: rgb(255, 187, 0);
+}
+
+/*
+SEARCH BAR
+*/
+
+form{
+    position: relative;
+}
+
+form > i{
+    position: absolute;
+    top: 25%;
+    left: 5px;
+}
+
+input{
+    width: 100%;
+}
+
+.p_left{
+   padding-left:30px;   
+}
+
+.mr_10{
+    margin-right: 12px;
 }
 
 /*
@@ -53,7 +80,6 @@ SIDEBAR LEFT SETTING
 .top_sidebar{
     width: 160px;
     height: 150px;
-    border: 1px dashed white;
 }
 
 .bot_sidebar{
@@ -68,7 +94,7 @@ SIDEBAR LEFT SETTING
 TOPBAR MAIN SETTING
 */
 .topbar{
-    height: 150px;
+    height: 130px;
     width: calc(100vw - 160px);
     background-color: #0d6efd;
 }
@@ -133,6 +159,10 @@ TABLET
     .content{
         width: calc(100% - 60px);
     }
+
+    .d_none{
+        display: none;
+    }
 }
 
 /*
@@ -169,3 +199,11 @@ MOBILE
     }
 }
 
+/*
+DESKTOP LARGE
+*/
+@media screen and (max-width: 1550px) {
+    .d_none{
+        display: none;
+    }
+}
