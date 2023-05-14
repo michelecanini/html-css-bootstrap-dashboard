@@ -150,6 +150,12 @@ TOPBAR MAIN SETTING
     margin-right: 10px;
 }
 
+.cb_blaz{
+    background-color: #1352b1;
+}
+
+
+
 /*
 CONTENT SETTING
 */
@@ -178,6 +184,9 @@ CONTENT SETTING
 TOGGLE RIGHT-BAR
 */
 
+.tr_nuovos{
+    text-align: center;
+}
 
 
 /*
@@ -240,6 +249,27 @@ TABLET
     header div{
         width: 100%;
     }
+
+    .topbar{
+        height: 220px;
+    }
+
+    .dn_badge{
+        display: none;
+    }
+
+    #order2 { order: 2; }
+    #order3 { order: 3; }
+    #order1 { order: 1; }
+
+    .mt_1rem{
+        margin-top: 1rem;
+    }
+
+    .tr_nuovos{
+        text-align: left;
+    }
+        
 }
 
 /*
