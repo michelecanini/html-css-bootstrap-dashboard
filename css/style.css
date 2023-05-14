@@ -82,14 +82,21 @@ SIDEBAR LEFT SETTING
     flex-direction: column;
     justify-content: space-between;
     margin-top: 71px;
+    position: relative;
 }
 
 .top_sidebar{
     width: 160px;
+    position: fixed;
+    top: 71px;
+    left: 0;
 }
 
 .bot_sidebar{
     width: 160px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .top_sidebar a{
