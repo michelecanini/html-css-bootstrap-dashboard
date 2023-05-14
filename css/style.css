@@ -16,6 +16,11 @@ CONTAINER APP
     overflow-x: hidden;
 }
 
+.c_padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+
 main{
     background-color: #212529 ;
     display: flex;
