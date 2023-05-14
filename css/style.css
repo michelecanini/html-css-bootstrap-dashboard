@@ -138,6 +138,18 @@ TOPBAR MAIN SETTING
     margin-top: 71px;
 }
 
+.h_130{
+    height: 130px;
+}
+
+.list-group-item h4{
+    margin-bottom: 0;
+}
+
+.mr_10{
+    margin-right: 10px;
+}
+
 /*
 CONTENT SETTING
 */
@@ -161,6 +173,12 @@ CONTENT SETTING
 .stats{
     width: 100%;
 }
+
+/*
+TOGGLE RIGHT-BAR
+*/
+
+
 
 /*
 TABLET

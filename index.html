@@ -90,22 +90,22 @@
                             topbar-upgrade
                         -->
                         <div class="container-fluid">
-                            <div class="row align-items-center">
+                            <div class="row align-items-center h_130">
                                 <div class="col-md-6">
                                     <div>
-                                        <h1>Boolean</h1>
+                                        <h1 class="text-white">Boolean</h1>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                   <div>
-                                    <span>Studenti online negli ultimi 30 minuti</span>
-                                    <div>125</div>
+                                    <span class="text-white">Studenti online negli ultimi 30 minuti</span>
+                                    <h2 class="text-white">125</h2>
                                   </div>
                                 </div>
-                                  <div class="col-md-3">
+                                  <div class="col-md-3 text-center">
                                     
                                     <div>
-                                      <span>Nuovo Studente</span>
+                                      <span class="text-white mr_10">Nuovo Studente</span>
                                         <!--toggle-button-->
                                         <button class="btn btn-primary border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                                     </div>
@@ -122,7 +122,73 @@
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <form class="row g-3">
+                              <div class="col-md-6">
+                                <label for="inputName4" class="form-label">Nome</label>
+                                <input type="name" class="form-control" id="inputName4">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputLastname4" class="form-label">Cognome</label>
+                                <input type="lastname" class="form-control" id="inputLastname4">
+                              </div>
+                              <div class="col-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <div class="input-group">
+                                  <div class="input-group-text">@</div>
+                                  <input type="text" class="form-control" id="inlineFormInputGroupUsername">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                              <div class="col-6">
+                                <label for="inputEmail4" class="form-label">Indirizzo Email</label>
+                                <div class="input-group">
+                                  <div class="input-group-text">@</div>
+                                  <input type="text" class="form-control" id="inlineFormInputGroupUsername">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="inputAddress">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="inputCity">
+                              </div>
+                              <div class="col-md-4">
+                                <label for="inputState" class="form-label">Stato</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Scegli...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                              <div class="col-md-2">
+                                <label for="inputZip" class="form-label">Cap</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>
+                              <div class="mb-3">
+                                <label for="formFile" class="form-label">Foto</label>
+                                <input class="form-control" type="file" id="formFile">
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                                  <label class="form-check-label" for="gridCheck">
+                                    Seleziona per proseguire
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="submit" class="btn btn-warning">Svuota</button>
+                              </div>
+                            </form>
                         </div>
                         </div>
                     <!--END TOGGLE RIGHT-BAR STUDENT-->
@@ -254,7 +320,7 @@
                                 <div class="col-md-4">
                                     <!--todo-->
                                     <ul class="list-group">
-                                      <li class="list-group-item bg-light mt-4">
+                                      <li class="list-group-item bg-light mt-4 p-3">
                                         <h4>Todo</h4>
                                       </li>
                                       <li class="list-group-item">
