@@ -81,22 +81,15 @@ SIDEBAR LEFT SETTING
     height: calc(100vh - 71px);
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
+    margin-top: 71px;
 }
 
 .top_sidebar{
     width: 160px;
-    height: 150px;
-    position: fixed;
-    top: 71px;
-    left: 0;
-    z-index: 1;
 }
 
 .bot_sidebar{
     width: 160px;
-    position: fixed;
-    bottom: 0;
 }
 
 .top_sidebar a{
